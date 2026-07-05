@@ -4,7 +4,7 @@ A Python script that pulls public data from the GitHub API and generates a reada
 
 ## The problem it solves
 
-This demonstrates the same pattern businesses pay for constantly: connect to an API (GitHub here, but the same approach works for Stripe, a CRM, a marketing platform, etc.), pull the relevant data, and turn it into a clean, human-readable report — automatically, without manual copy-pasting.
+This demonstrates the same pattern businesses pay for constantly: connect to an API (GitHub here, but the same approach works for Stripe, a CRM, a marketing platform, etc.), pull the relevant data, and turn it into a clean, human-readable report  automatically, without manual copy-pasting.
 
 ## What it does
 
@@ -27,7 +27,7 @@ python github_analyzer.py torvalds --output torvalds_report.md
 
 ## Tech
 
-Pure Python standard library (`urllib`) — no dependencies to install. Uses the public GitHub REST API (unauthenticated requests are rate-limited by GitHub; adding a personal access token easily raises the limit for production use).
+Pure Python standard library (`urllib`)  no dependencies to install. Uses the public GitHub REST API (unauthenticated requests are rate-limited by GitHub; adding a personal access token easily raises the limit for production use).
 
 ## Author
 
